@@ -75,7 +75,7 @@ main {
     font-size: 20px;
 }
 
-.messages-section {
+.friends-section, .messages-section {
     max-width: 640px;
     margin: auto;
     margin-top: 5px;
@@ -84,11 +84,47 @@ main {
     border-radius: 3px;
 }
 
-.messages-header {
+.friends-section {
+    background: #d3d3d3
+}
+
+.friends-header, .messages-header {
+    display: inline-block;
     font-size: 22px;
     margin-bottom: 2px;
 }
 
-.inbox-hr {
-    color: #000000;
+.friend {
+    padding: 10px;
+    border-bottom: 1px solid #444444;
+}
+
+.friend-info {
+    margin: 0;
+}
+
+.friend-state {
+    float: right;
+}
+
+.friends-list, .messages-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.hr {
+    height: 1px;
+    background-color: #333333;
+    border: none;
+}
+
+.message {
+    margin-bottom: 3px;
+    padding: 5px;
+    border: 1px solid #a1a1a1;
+    border-radius: 2px;
+}
+
+.from-field {
+    margin-top: 0px;
 }
