@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+header {
+    margin-top: 13%;
+}
+
+main {
+    margin-top: 3%;
+}
+
+section {
+    text-align: center;
+}
+
+.find, .play {
+    background: #999999;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.to-register-page {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    margin-top: 10%;
+    width: 75px;
+}
