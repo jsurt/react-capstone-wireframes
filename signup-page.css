@@ -54,6 +54,10 @@ header {
     font-size: 24px;
 }
 
+.login {
+    color: #aaaaaa;
+}
+
 main {
     margin-top: 5%;
     text-align: center;
