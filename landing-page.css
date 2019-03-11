@@ -10,11 +10,19 @@ html, body {
 }
 
 header {
+    margin-top: 13%;
     text-align: center;
 }
 
-header {
-    margin-top: 13%;
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.login {
+    position: absolute;
+    top: 1%;
+    right: 1%;
 }
 
 main {
@@ -22,6 +30,7 @@ main {
 }
 
 section {
+    padding: 20px;
     text-align: center;
 }
 
@@ -36,7 +45,16 @@ section {
     text-align: center;
 }
 
-img {
+.to-register-page {
     margin-top: 10%;
+}
+
+.to-register-text {
+    position: relative;
+    bottom: 70px;
+    left: 69px;
+}
+
+img {
     width: 75px;
 }
